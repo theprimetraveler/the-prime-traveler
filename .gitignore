@@ -1,0 +1,36 @@
+# Backup and temporary files
+*.bak
+*.backup
+*.tmp
+index.BACKUP.html
+index-backup*.html
+index.html.bak
+
+# Development and build artifacts
+node_modules/
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Unnecessary directories
+fotos-csv/
+fotos-originais/
+lista-fotos/
+lista-fotos-2/
+h/
+
+# Scripts and configuration files (not needed in repo)
+*.bat
+*.py
+*.js
+
+# Data files
+*.json
+*.csv
+*.md
+
+# Windows system files
+nul
+Thumbs.db
